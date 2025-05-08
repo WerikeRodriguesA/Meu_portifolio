@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #eaeaea;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  header {
+    background: #1f1f1f;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #124d03;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header h1 {
+    color: #124d03;
+    font-size: 24px;
+    letter-spacing: 1px;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  
+  nav a {
+    color: #eaeaea;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #124d03;
+  }
+  
+  #hero {
+    background: linear-gradient(135deg, #1c1c1c, #000000);
+    text-align: center;
+    padding: 100px 20px 80px;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #124d03;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #hero p {
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 25px;
+  }
+  
+  .cta {
+    background: #124d03;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #124d03;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+  section {
+    padding: 70px 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #124d03;
+  }
+  
+  #sobre p {
+    font-size: 22px;
+    color: #bbb;
+  }
+  
+ 
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .skills-list li {
+    background: #222;
+    border: 1px solid #124d03;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(26, 153, 89, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+  }
+    .card{ 
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .card{
+       width: auto;
+       height: auto;
+       object-fit: cover;
+    }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(26, 153, 89, 0.4);
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea {
+    background: #1c1c1c;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  form input::placeholder,
+  form textarea::placeholder {
+    color: #777;
+  }
+  
+  form button {
+    background: #124d03;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #124d03;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    color: #666;
+    font-size: 14px;
+  }
+  
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .texto-apresentacao {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .foto-perfil {
+    flex: 15;
+    max-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    border-radius: 150px;
+    overflow: auto;
+    box-shadow: 0 0 150px rgba(26, 153, 89, 0.15);
+  }
+  
+  .foto-perfil img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+  }
+  
+  .floating-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 25px rgba(26, 153, 89, 0.25);
+  }
+  
