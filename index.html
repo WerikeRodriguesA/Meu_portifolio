@@ -3,52 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Werike Rodrigues Alves, desenvolvedor focado em código limpo, usabilidade e soluções práticas. Projetos em Front-end e Back-end." />
   <link rel="icon" href="img/icon.png" type="image/png">
-  <title>Werike Rodrigues Alves | Portfólio</title>
+  <title>Werike Rodrigues Alves | Desenvolvedor</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+  <!-- ================= HEADER ================= -->
   <header>
-    <nav>
+    <nav aria-label="Navegação principal">
       <h1>Werike Rodrigues Alves</h1>
       <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#inicio">Início</a></li>
         <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">
-        <div class="home-container">
-          <div class="texto-apresentacao">
-            <h1>Procurando um programador que se preocupa com a estrutura dos codigos?<br>
-            A interface e usuabilidade do cliente? <br>
-            E o feedback sobre a empresa?<br>
-            Seja bem vindo ao lugar certo! </br>
-            <strong>Me chamo Werike, e sou oque você procura!</strong></h1>
-          </div>
-          <div class="foto-perfil">
-            <img src="img/op2.jpg" alt="Foto de Werike">
-          </div>
+
+    <!-- ================= HERO ================= -->
+    <section id="inicio">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h2>Desenvolvedor focado em código limpo,<br>usabilidade e impacto real.</h2>
+          <p>
+            Transformo ideias em interfaces funcionais, bem estruturadas e pensadas
+            para o usuário e para o negócio.
+          </p>
+          <a href="#projetos" class="cta">Ver projetos</a>
         </div>
-      </section>
-      
-    <section id="hero">
-      <h2>Olá, eu sou <strong> Werike </strong></h2>
-      <p>Estudante de Direito e Desenvolvedor Front-end e Back-end em formação. <br>Transformando código em impacto visual.</p>
-      <a href="#contato" class="cta">Entre em contato</a>
+
+        <figure class="hero-image">
+          <img src="img/op2.jpg" alt="Foto de Werike Rodrigues Alves">
+        </figure>
+      </div>
     </section>
 
-    <section id="sobre">
-      <h2>Sobre Mim</h2>
-      <br><p>Sou um jovem determinado, estudando Direito e ADS, buscando ser o melhor no que faço. Minha missão é marcar o mundo com código e coragem, sempre buscando mais conhecimento e procurando formas de me aperfeiçoar cada vez mais, para realizações profissionais e pessoais.</p>
+    <!-- ================= DIFERENCIAIS ================= -->
+    <section id="diferenciais">
+      <h2>O que eu entrego</h2>
+      <ul class="diferenciais-list">
+        <li>Código organizado e legível</li>
+        <li>Interfaces intuitivas e responsivas</li>
+        <li>Foco na experiência do usuário</li>
+        <li>Versionamento com Git e GitHub</li>
+        <li>Compromisso com melhoria contínua</li>
+      </ul>
     </section>
 
-    <section id="skills">
-      <h2>Habilidades</h2>
+    <!-- ================= PROJETOS ================= -->
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <div class="projetos-grid">
+
+        <article class="card">
+          <img src="img/avatar em trabalho.png" alt="Site pessoal profissional">
+          <h3>Site Pessoal Profissional</h3>
+          <p>
+            Desenvolvimento de um site institucional para apresentação profissional,
+            com foco em identidade visual, responsividade e organização de código.
+          </p>
+          <p class="tech">HTML • CSS • JavaScript</p>
+          <a href="#" class="btn-card">Ver no GitHub</a>
+        </article>
+
+        <article class="card">
+          <img src="img/projetinho.png" alt="Dashboard jurídico">
+          <h3>Dashboard Jurídico</h3>
+          <p>
+            Protótipo de sistema para acompanhamento de processos jurídicos,
+            priorizando clareza de informações e visual moderno.
+          </p>
+          <p class="tech">HTML • CSS • JavaScript</p>
+          <a href="#" class="btn-card">Ver projeto</a>
+        </article>
+
+        <article class="card">
+          <img src="img/codigo.jpg" alt="Automação de agendamentos">
+          <h3>Automação de Agendamentos</h3>
+          <p>
+            Sistema em desenvolvimento para automatizar agendamentos e reduzir
+            retrabalho em um PetShop.
+          </p>
+          <p class="tech">Java • Lógica de Negócio</p>
+          <a href="#" class="btn-card">Ver projeto</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= HABILIDADES ================= -->
+    <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
       <ul class="skills-list">
         <li>HTML5</li>
         <li>CSS3</li>
@@ -57,48 +110,46 @@
         <li>Python</li>
         <li>Kotlin</li>
         <li>Git & GitHub</li>
-        <li>Redes (Packet Tracer)</li>
+        <li>Redes de Computadores (Packet Tracer)</li>
       </ul>
     </section>
 
-    <section id="projetos">
-      <h2>Projetos</h2>
-      <div class="projetos-grid">
-        <div class="card">
-          <img src="img/avatar em trabalho.png" alt="Meu Site/Portfólio no GitHub">
-          <h3>Site Pessoal</h3>
-          <p>Meu site profissional desenvolvido com HTML5, CSS3 e JavaScript.</p>
-          <a href="#" class="btn-card">Ver projeto</a>
-        </div>
-      
-        <div class="card">
-          <img src="img/projetinho.png" alt="Projeto acompanhamento de processos juridicos">
-          <h3>Dashboard Jurídico</h3>
-          <p>Protótipo de sistema para acompanhamento de processos jurídicos com visual moderno.</p>
-          <a href="#" class="btn-card">Ver projeto</a>
-        </div>
-
-        <div class="card">
-          <img src="img/codigo.jpg" alt="Projeto de automação em desenvolvimento">
-          <h3>Automção de agendamento</h3>
-          <p>Projeto de automação para agendamento de serviços e outros para um PetShop</p>
-          <a href="#" class="btn-card">Ver projeto</a>
-        </div>
-      </div>
-      
+    <!-- ================= SOBRE ================= -->
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>
+        Sou estudante de Direito e Análise e Desenvolvimento de Sistemas,
+        movido por desafios e pela busca constante por evolução técnica e pessoal.
+        Acredito em tecnologia como ferramenta de impacto real e crescimento.
+      </p>
     </section>
 
+    <!-- ================= CONTATO ================= -->
     <section id="contato">
-      <h2>Fale comigo!</h2>
-      <form>
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <textarea placeholder="Sua mensagem" required></textarea>
-        <button type="submit">Enviar</button>
+      <h2>Contato</h2>
+      <form action="#" method="post">
+        <label>
+          Nome
+          <input type="text" name="nome" required>
+        </label>
+
+        <label>
+          E-mail
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Mensagem
+          <textarea name="mensagem" rows="5" required></textarea>
+        </label>
+
+        <button type="submit">Enviar mensagem</button>
       </form>
     </section>
+
   </main>
 
+  <!-- ================= FOOTER ================= -->
   <footer>
     <p>© 2025 Werike Rodrigues Alves. Todos os direitos reservados.</p>
   </footer>
